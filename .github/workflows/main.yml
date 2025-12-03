@@ -11,7 +11,7 @@ jobs:
   build:
     strategy:
       matrix:
-        haxe-version: [3.4.7, 4.2.5, 4.3.7, latest]
+        haxe-version: [4.2.5, 4.3.7, latest]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
